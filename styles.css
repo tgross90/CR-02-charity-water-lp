@@ -1,2 +1,70 @@
-/* Add your styles for the page here */
+/* General Styles */
+body {
+  font-family: 'Proxima Nova', 'Avenir', Arial, sans-serif; /* Added Avenir as the secondary font */
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Center text by default */
+}
+
+/* Hero Section */
+.hero {
+  background: url('img/watwoman.jpg') center/cover no-repeat;
+  padding: 500px 20px; /* Increased padding for a larger section */
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3em; /* Increased font size for the main heading */
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.5em; /* Increased font size for the subheading */
+}
+
+/* Story Section */
+.story {
+  background-color: #77A8BB;
+  padding: 20px;
+  color: white; /* Black text for readability */
+}
+
+/* Story Logo */
+.story-logo {
+  display: block; /* Make the image a block element */
+  margin: 0 auto 20px; /* Center the image and add spacing below it */
+  width: 100px; /* Set a fixed width for the logo */
+  height: auto; /* Maintain aspect ratio */
+  background-color: white; /* Add a white background */
+  padding: 10px; /* Add padding around the logo */
+  border-radius: 5px; /* Slightly round the corners */
+}
+
+/* Call-to-Action Section */
+.cta {
+  background-color: #ffc907;
+  padding: 20px;
+  color: white; /* White text for contrast */
+}
+
+.cta button {
+  background-color: #003366; 
+  color: white; /* White text for the button */
+  border: none; /* Remove default border */
+  padding: 10px 20px; /* Add padding for the button */
+  border-radius: 5px; /* Round the button corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Footer Section */
+.footer {
+  background-color: palevioletred; /* Set footer background color */
+  text-align: center; /* Center the text */
+  padding: 10px; /* Add padding for spacing */
+  color: white; /* Set text color to white for contrast */
+  font-size: 0.9em; /* Slightly smaller font size */
+}
+
+
 
